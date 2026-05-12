@@ -3,8 +3,8 @@
 // Copyright 1999
 // Usage:
 //	If you can help it, don't just stick another view inside this one.  Instead, subclass this, and
-//have 	your class's Draw method call the DeepBevelView::Draw method, then do your subclass's drawing
-//in the
+// have 	your class's Draw method call the DeepBevelView::Draw method, then do your subclass's
+// drawing in the
 //   view while leaving alone the outermost two pixels on each edge.
 
 

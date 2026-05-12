@@ -91,7 +91,7 @@ private:
 	sem_id m_done_mutex;	   // Mutex to release when the user hits a button or the window closes
 	char* m_selection_buffer;  // Buffer to store the user-entered selection when the user hits a
 							   // button
-	int32* m_button_pressed;  // Place to store the button index that the user hit
+	int32* m_button_pressed;   // Place to store the button index that the user hit
 	int32 m_buffer_size;
 
 	// For the asynchronous version
